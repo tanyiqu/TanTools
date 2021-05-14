@@ -22,7 +22,7 @@
     width: 100%;
     height: @header_height;
     background: #fff;
-    box-shadow: 0 1px 2px #dddddd;
+    box-shadow: 0 2px 4px -1px #cccccc;
   }
 
   #content {
