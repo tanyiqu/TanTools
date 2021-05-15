@@ -9,7 +9,7 @@
 </template>
 
 <style lang="less">
-@header_height: 62px;
+@header_height: 50px;
 @footer_height: 38px;
 
 #app {
