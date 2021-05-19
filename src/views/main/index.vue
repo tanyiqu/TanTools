@@ -1,20 +1,27 @@
 <template>
-  <div id="index">index</div>
+  <div class="index">
+    <ToolItem />
+    <ToolItem />
+    <ToolItem />
+  </div>
 </template>
 
 <script>
-export default {
+import ToolItem from '@/components/ToolItem.vue';
 
+
+export default {
+  components: {
+    ToolItem
+  }
 }
 </script>
 
 
 <style lang="less" scoped>
-#index {
+.index {
   width: 100%;
   height: 100%;
-  background: red;
-  color: rosybrown;
 }
 </style>
 

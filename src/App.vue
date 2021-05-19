@@ -56,7 +56,6 @@ export default {
     height: calc(100% - @header_height - @footer_height);
     padding-top: @header_height;
     padding-bottom: @footer_height;
-    background: palegoldenrod;
 
     #root {
       width: 100%;
