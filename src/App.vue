@@ -6,7 +6,7 @@
       </div>
     </div>
     <div id="content">
-      <router-view />
+      <router-view id="root" />
     </div>
     <div id="footer" @click="toTanyiqu">Code by tanyiqu</div>
   </div>
@@ -44,9 +44,6 @@ export default {
       display: flex;
       align-items: center;
 
-      .img {
-      }
-
       .desc {
         position: absolute;
         right: 20px;
@@ -55,8 +52,16 @@ export default {
   }
 
   #content {
+    width: 100%;
+    height: calc(100% - @header_height - @footer_height);
     padding-top: @header_height;
     padding-bottom: @footer_height;
+    background: palegoldenrod;
+
+    #root {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   #footer {
