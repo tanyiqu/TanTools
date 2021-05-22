@@ -1,18 +1,23 @@
 <template>
   <div class="index">
+    <!-- <ToolItem />
     <ToolItem />
-    <ToolItem />
-    <ToolItem />
+    <ToolItem /> -->
+
+    <case-conversion />
+
   </div>
 </template>
 
 <script>
 import ToolItem from '@/components/ToolItem.vue';
+import CaseConversion from '../tools/case_conversion.vue';
 
 
 export default {
   components: {
-    ToolItem
+    ToolItem,
+    CaseConversion
   }
 }
 </script>

@@ -43,3 +43,5 @@ const Conversion = {
         return res.toString();
     }
 }
+
+export default Conversion;
